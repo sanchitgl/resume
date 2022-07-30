@@ -1,0 +1,14 @@
+-create Environment 
+virtualenv resume_env
+
+-Activate environment 
+source resume_env/bin/activate
+
+-run streamlit app
+streamlit run streamlit_app.py
+
+- export dependencies
+pip3 freeze > requirements.txt
+
+- Install dependencies
+pip install -r requirements.txt

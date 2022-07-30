@@ -1,18 +1,31 @@
 import streamlit as st
 from PIL import Image
-
+from streamlit_timeline import timeline
+st.set_page_config(page_title="Timeline Example", layout="wide")
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
 
+#space, app, space = st.columns ([1,5,1])
+
+#with app:
 #####################
 # Header 
-st.write('''
-# Chanin Nantasenamat, Ph.D.
-##### *Resume* 
-''')
+# st.write('''
+# # Sanchit Goel
+# ##### *Resume* 
+# ''')
 
-image = Image.open('dp.png')
-st.image(image, width=150)
+# image = Image.open('dp.png')
+# st.image(image, width=150)
+
+st.markdown('## My Data science journey', unsafe_allow_html=True)
+# load data
+with open('example.json', "r") as f:
+    data = f.read()
+
+# render timeline
+timeline(data, height=400)
+
 
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
