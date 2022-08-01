@@ -20,13 +20,16 @@ with open("style.css") as f:
 
 st.markdown('## My Data science journey', unsafe_allow_html=True)
 # load data
+
+
 with open('example.json', "r") as f:
     data = f.read()
 
 # render timeline
-timeline(data, height=400)
-
-
+timeline(data, height=500)
+# st.markdown('''
+# <iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1xuY4upIooEeszZ_lCmeNx24eSFWe0rHe9ZdqH2xqVNk&font=Default&lang=en&initial_zoom=2&height=100%" width="100%" frameborder="0"></iframe>''', unsafe_allow_html = True)
+                                
 st.markdown('## Summary', unsafe_allow_html=True)
 st.info('''
 - Experienced Educator, Researcher and Administrator with almost twenty years of experience in data-oriented environment and a passion for delivering insights based on predictive modeling. 
@@ -41,7 +44,7 @@ st.markdown('<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootst
 
 st.markdown("""
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #16A2CB;">
-  <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Chanin Nantasenamat</a>
+  <a class="navbar-brand" href="https://youtube.com/dataprofessor" target="_blank">Sanchit Goel</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -104,21 +107,26 @@ st.markdown('''
 ## Education
 ''')
 
-txt('**Doctor of Philosophy** (Medical Technology), *Mahidol University*, Thailand',
-'2002-2006')
+txt('**Post Graduate Diploma** (Computer Science), *Ashoka University*, India',
+'2019-2020')
 st.markdown('''
-- GPA: `3.89`
-- Research thesis entitled `Computer-aided molecular design for biological and chemical applications : Quantum chemical and machine learning approach`.
-- Received Royal Golden Jubilee Ph.D. Scholarship of `2.152 million THB` covering tuition and stipend.
-- Thesis awarded `1st` Prize by the National Research Council of Thailand.
+- Minors in Computer Science, GPA: `3.6`
+- Relevant Courses - 
+\n Computer Sceince: &nbsp Advanced Machine Learning, Advanced Programing,  Algorithms, Data Mining and Warehousing
+\n Maths: &nbsp Linear Algebra, Calculus, Statistical Inference
 ''')
 
-txt('**Bachelors of Science** (Biological Science), *Mahidol University International College*, Thailand',
-'1998-2002')
+txt('**Bachelors of Arts** (Economics), *Ashoka University*, India',
+'2016-2019')
 st.markdown('''
-- GPA: `3.65`
-- Graduated with First Class Honors.
-''')
+- Econmics Major, GPA: `3.3`
+\n
+- Relevant Courses : 
+\n &nbsp &nbsp <b>Economics:</b> &nbsp Advanced Econometrics, Statistics for Economics, Networks crowds and Internet, Game Theory
+\n &nbsp &nbsp <b>Finance:</b> &nbsp Advanced Financial Management, 
+\n &nbsp &nbsp <b>Computer Science:</b> &nbsp Introduction to Programing
+
+''', unsafe_allow_html = True)
 
 #####################
 st.markdown('''

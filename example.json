@@ -1,57 +1,73 @@
 {
-    "title": {
-        "media": {
-          "url": "",
-          "caption": " <a target=\"_blank\" href=''>credits</a>",
-          "credit": ""
-        },
-        "text": {
-          "headline": "<p>Auto Mobile Slowdown: A Qunatitative Study</p>",
-          "text": "<p>Studied the role factors like regulation changes, NBFC crisis, rise in ride hailing services and consumer confidence played on bringing about the Automobile slowdown in 2019. Used OLS estimation to find the impact of mentioned factors.</p>"
-        }
-    },
     "events": [
       {
         "media": {
-          "url": "https://vimeo.com/143407878",
-          "caption": "How to Use TimelineJS (<a target=\"_blank\" href='https://timeline.knightlab.com/'>credits</a>)"
+          "url": "https://drive.google.com/file/d/1hq8DhX0UYkx2-82XsmB1sxAa39emTvap/view?usp=sharing",
+          "caption": "<a target=\"_blank\" href=''>Open PDF</a>"
         },
         "start_date": {
-          "year": "2016",
-          "month":"1"
+          "year": "2019",
+          "month":"9"
         },
         "text": {
-          "headline": "<p>TimelineJS<br>Easy-to-make, beautiful timelines.</p>",
-          "text": "<p>TimelineJS is a populair tool from Knightlab. It has been used by more than 250,000 people to tell stories seen hundreds of millions of times, and is available in more than sixty languages. </p>"
+          "headline": "Auto Mobile Slowdown: A Qunatitative Study",
+          "text": "Studied the role factors like regulation changes, NBFC crisis, rise in ride hailing services and consumer confidence played on bringing about the Automobile slowdown in 2019. Used OLS estimation to find the impact of mentioned factors."
         }
       },
       {
         "media": {
           "url": "https://www.youtube.com/watch?v=CmSKVW1v0xM",
-          "caption": "Streamlit Components (<a target=\"_blank\" href='https://streamlit.io/'>credits</a>)"
+          "caption": ""
         },
         "start_date": {
-          "year": "2020",
-          "month":"7",
-          "day":"13"
+          "year": "2019",
+          "month":"12"
         },
         "text": {
-          "headline": "Streamlit Components<br>version 0.63.0",
-          "text": "Streamlit lets you turn data scripts into sharable web apps in minutes, not weeks. It's all Python, open-source, and free! And once you've created an app you can use our free sharing platform to deploy, manage, and share your app with the world."
+          "headline": "Hand Gesture Recognition",
+          "text": "Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly classify hand gestures into 11 classes with ∼ 98% accuracy."
         }
       },
       {
         "media": {
           "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
-          "caption": "github/innerdoc (<a target=\"_blank\" href='https://www.github.com/innerdoc/'>credits</a>)"
+          "caption": ""
         },
         "start_date": {
-          "year": "2021",
-          "month":"2"
+          "year": "2020",
+          "month":"4"
         },
         "text": {
-          "headline": "Streamlit TimelineJS component",
-          "text": "Started with a demo on https://www.innerdoc.com/nlp-timeline/ . <br>Then made a <a href='https://github.com/innerdoc/streamlit-timeline'>Streamlit component</a> of it. <br>Then made a <a href='https://pypi.org/project/streamlit-timeline/'>PyPi package</a> for it."
+          "headline": "Reconstruction of Obfuscated Images",
+          "text": "Used Convolutional Autoencoders to fix 3 types of Obfuscations(blur, pixelation and speckle noise) in facial images. We trained 3 different Autencoders on about 13000 images to handle the different types of obfuscations."
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2020",
+          "month":"4"
+        },
+        "text": {
+          "headline": "Reconstruction of Obfuscated Images",
+          "text": "Used Convolutional Autoencoders to fix 3 types of Obfuscations(blur, pixelation and speckle noise) in facial images. We trained 3 different Autencoders on about 13000 images to handle the different types of obfuscations."
+        }
+      },
+      {
+        "media": {
+          "url": "https://docs.iza.org/dp14497.pdf",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2020",
+          "month":"6"
+        },
+        "text": {
+          "headline": "Research Assistant",
+          "text": "Worked with Prof. Kanika Mahajan on the published journal ‘Words matter: Gender, Jobs and Applicant Be- haviour’, to examine how implicit gender preference in Job ads leads to differential labor market out- comes. I used NLP techniques like tf-idf, topic modeling and word clouds to understand the difference between the kind of jobs offered and the keywords associated with respective gender preferred jobs."
         }
       }
     ]
