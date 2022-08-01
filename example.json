@@ -30,22 +30,8 @@
       },
       {
         "media": {
-          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
-          "caption": ""
-        },
-        "start_date": {
-          "year": "2020",
-          "month":"4"
-        },
-        "text": {
-          "headline": "Reconstruction of Obfuscated Images",
-          "text": "Used Convolutional Autoencoders to fix 3 types of Obfuscations(blur, pixelation and speckle noise) in facial images. We trained 3 different Autencoders on about 13000 images to handle the different types of obfuscations."
-        }
-      },
-      {
-        "media": {
-          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
-          "caption": ""
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/Image_obfuscations.png",
+          "caption": "<a target=\"_blank\" href='https://drive.google.com/file/d/1ac9nbv1E7MKduiapijJC-A8mCk1n9XAZ/view?usp=sharing'>Open Report</a> &nbsp  &nbsp <a target=\"_blank\" href=''>Github</a>"
         },
         "start_date": {
           "year": "2020",
@@ -63,11 +49,25 @@
         },
         "start_date": {
           "year": "2020",
-          "month":"6"
+          "month":"5"
+        },
+        "text": {
+          "headline": "Summer Internship",
+          "text": "Worked with Prof. Kanika Mahajan on the published journal ‘Words matter: Gender, Jobs and Applicant Be- haviour’, to examine how implicit gender preference in Job ads leads to differential labor market out- comes. I used NLP techniques like tf-idf, topic modeling and word clouds to understand the difference between the kind of jobs offered and the keywords associated with respective gender preferred jobs."
+        }
+      },
+      {
+        "media": {
+          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2020",
+          "month":"7"
         },
         "text": {
           "headline": "Research Assistant",
-          "text": "Worked with Prof. Kanika Mahajan on the published journal ‘Words matter: Gender, Jobs and Applicant Be- haviour’, to examine how implicit gender preference in Job ads leads to differential labor market out- comes. I used NLP techniques like tf-idf, topic modeling and word clouds to understand the difference between the kind of jobs offered and the keywords associated with respective gender preferred jobs."
+          "text": "Worked on the now published journal ‘Covid 19 and Supply chain disruption’. I was responsible for cleaning the data and calculating the distances between production zones and retail centres by using google maps API to find the impact of distance on supply chain disruptions."
         }
       }
     ]
