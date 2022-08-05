@@ -72,7 +72,7 @@
       },
       {
         "media": {
-          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/Covid_19_supplychain_disruptions.png",
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/synthpop.png",
           "caption": ""
         },
         "start_date": {
@@ -82,6 +82,20 @@
         "text": {
           "headline": "Synthetic Population Generation",
           "text": "Trained a DataSynthesizer model using NSS data to scale a dataset 15 times to about 15 million observations. Studied and presented an Iterative Proportional fitting(IPF) approach to integrate census datasets for formulating Synthetic Population in order to study the spread of Coronavirus"
+        }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/fractal.jpeg",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2020",
+          "month":"10"
+        },
+        "text": {
+          "headline": "Joined Fractal Analytics as a Data Scientist",
+          "text": "Being in the Imagineer Program, Fractal allowed me to work in various feilds within Datascience. I worked on projects in Finance and Health care domain, primarily building automation tools using NLP and ML "
         }
       }
     ]
