@@ -97,6 +97,20 @@
           "headline": "Joined Fractal Analytics as a Data Scientist",
           "text": "Being in the Imagineer Program, Fractal allowed me to work in various feilds within Datascience. I worked on projects in Finance and Health care domain, primarily building automation tools using NLP and ML "
         }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/invoice-processing.jpeg",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2020",
+          "month":"12"
+        },
+        "text": {
+          "headline": "Invoice Processing Automation (Fractal)",
+          "text": "Developed an intelligent automation tool that automates the processing of insurance claims (PA and FWA) for US health insurance firms. Solution digitizes and extracts relevant details from the insurance forms using Natural Language Processing (NLP) models/libraries like Spacy, PYSBD, and Regex, and applies validation rules to check if the claim is valid."
+        }
       }
     ]
 }
