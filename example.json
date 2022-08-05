@@ -58,7 +58,7 @@
       },
       {
         "media": {
-          "url": "https://github.com/innerdoc/streamlit-timeline/raw/main/component-logo.png",
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/Covid_19_supplychain_disruptions.png",
           "caption": ""
         },
         "start_date": {
@@ -68,6 +68,20 @@
         "text": {
           "headline": "Research Assistant",
           "text": "Worked on the now published journal ‘Covid 19 and Supply chain disruption’. I was responsible for cleaning the data and calculating the distances between production zones and retail centres by using google maps API to find the impact of distance on supply chain disruptions."
+        }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/Covid_19_supplychain_disruptions.png",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2020",
+          "month":"9"
+        },
+        "text": {
+          "headline": "Synthetic Population Generation",
+          "text": "Trained a DataSynthesizer model using NSS data to scale a dataset 15 times to about 15 million observations. Studied and presented an Iterative Proportional fitting(IPF) approach to integrate census datasets for formulating Synthetic Population in order to study the spread of Coronavirus"
         }
       }
     ]
