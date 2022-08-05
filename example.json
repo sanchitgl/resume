@@ -109,7 +109,7 @@
         },
         "text": {
           "headline": "Invoice Processing Automation (Fractal)",
-          "text": "Developed an intelligent automation tool that automates the processing of insurance claims (PA and FWA) for US health insurance firms. Solution digitizes and extracts relevant details from the insurance forms using Natural Language Processing (NLP) models/libraries like Spacy, PYSBD, and Regex, and applies validation rules to check if the claim is valid."
+          "text": "Developed an Invoice processing solution using Google Vision OCR and Natural language processing. Trained a text classifier on over 600 invoices to identify relevant segments of an invoice. Used NLP (Regex) to extract required information using pattern matching."
         }
       }
     ]
