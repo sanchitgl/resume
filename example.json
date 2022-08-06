@@ -132,8 +132,8 @@
           "caption": ""
         },
         "start_date": {
-          "year": "2021",
-          "month":"08"
+          "year": "2022",
+          "month":"02"
         },
         "text": {
           "headline": "Research Assistant - Dr. Ashwini Deshpande",
@@ -142,7 +142,7 @@
       },
       {
         "media": {
-          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/Twitterazi_demo_2.mov",
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/Twitterazi_demo_2.mp4",
           "caption": ""
         },
         "start_date": {
@@ -152,6 +152,20 @@
         "text": {
           "headline": "Twitterazzie",
           "text": "Developed a web app that gives an overview of the topics a particular twitter user has tweeted about in the past month. It accurately recognises people, organisations, locations and keywords in the tweets using Spacy, which can then be used to filter out tweets relating to that entity."
+        }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/Twitterazi_demo_2.mp4",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2022",
+          "month":"05"
+        },
+        "text": {
+          "headline": "Stock Snapshot",
+          "text": "One-stop stock analysis tool that gives a financial overview of a company by scraping over 20yr+ financial data."
         }
       }
     ]
