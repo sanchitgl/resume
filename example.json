@@ -111,6 +111,48 @@
           "headline": "Invoice Processing Automation (Fractal)",
           "text": "Developed an Invoice processing solution using Google Vision OCR and Natural language processing. Trained a text classifier on over 600 invoices to identify relevant segments of an invoice. Used NLP (Regex) to extract required information using pattern matching."
         }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/health-insurance.jpeg",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2021",
+          "month":"05"
+        },
+        "text": {
+          "headline": "Health Insurance Doc Automation (Fractal)",
+          "text": "Developed an intelligent automation tool that automates the processing of insurance claims (PA and FWA) for US health insurance firms. Solution digitizes and extracts relevant details from the insurance forms using Natural Language Processing (NLP) models/libraries like Spacy, PYSBD, and Regex, and applies validation rules to check if the claim is valid."
+        }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/decenteralization.jpeg",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2021",
+          "month":"08"
+        },
+        "text": {
+          "headline": "Research Assistant - Dr. Ashwini Deshpande",
+          "text": "Worked with Dr. Ashwini Pande and Dr. Joshua Merfeld on the paper ‘Decentralization and Program Implementation’ to study the impact of district splits on the effectiveness of Program implementation. I prepared the dataset of over 800 districts and 7000 blocks using web scraping and census datasets. I identified district splits in India from 2011-20 by mapping block level changes in a district year over year, allowing us to study how district splits affected NREGA implementation in India from 2010-20."
+        }
+      },
+      {
+        "media": {
+          "url": "https://raw.githubusercontent.com/sanchitgoel7/resume/main/media/Twitterazi_demo_2.mov",
+          "caption": ""
+        },
+        "start_date": {
+          "year": "2021",
+          "month":"08"
+        },
+        "text": {
+          "headline": "Twitterazzie",
+          "text": "Developed a web app that gives an overview of the topics a particular twitter user has tweeted about in the past month. It accurately recognises people, organisations, locations and keywords in the tweets using Spacy, which can then be used to filter out tweets relating to that entity."
+        }
       }
     ]
 }
