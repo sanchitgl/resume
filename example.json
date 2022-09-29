@@ -24,7 +24,7 @@
           "month":"12"
         },
         "text": {
-          "headline": "Hand Gesture Recognition",
+          "headline": "Hand Gesture Recognition", 
           "text": "Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly classify hand gestures into 11 classes with ∼ 98% accuracy."
         }
       },
@@ -165,7 +165,7 @@
         },
         "text": {
           "headline": "Stock Snapshot",
-          "text": "One-stop stock analysis tool that gives a financial overview of a company by scraping over 20yr+ financial data."
+          "text": "Developed a one-stop stock analysis tool that gives a financial overview of a company by scraping over 20yr+ financial data. The App also has a built in DCF calculator for a quick Intrinsic value calculation of a stock."
         }
       }
     ]
