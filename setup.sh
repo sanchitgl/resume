@@ -6,11 +6,7 @@ email = \"your-email@domain.com\"\n\
 " > ~/.streamlit/credentials.toml
 
 echo "\
-[server]\n\
-headless = true\n\
-enableCORS=false\n\
-port = $PORT\n\
-[theme]
-base='light'
-backgroundColor='#E5E4E2'
+[theme]\n\
+base='light'\n\
+backgroundColor='#E5E4E2'\n\
 " > ~/.streamlit/config.toml
