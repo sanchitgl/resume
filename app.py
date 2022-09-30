@@ -76,7 +76,7 @@ def txt3(a, b):
     st.markdown(b)
   
 def txt4(a, b, c):
-  col1, col2, col3 = st.columns([1.3,4,0.25])
+  col1, col2, col3 = st.columns([1.3,3.9,0.25])
   with col1:
     st.markdown(a)
   with col2:
@@ -85,7 +85,7 @@ def txt4(a, b, c):
     st.markdown(c)
 
 def txt6(a, img,  b, c):
-  col1, col2, col3 = st.columns([1.3,4,0.25])
+  col1, col2, col3 = st.columns([1.3,3.9,0.25])
   with col1:
     #st.markdown(a)
     st.image(img, use_column_width ="always")
@@ -185,13 +185,13 @@ st.markdown('''
 ## Past Projects
 ''')
 txt6('**Book Spine Detection**', book_spine_img, 'Developed an app for a client that segregates and digitizes the books in a book shelf\'s image. Uses canny edge detection method to detect edges in a photo and then applies hough transformation to identify book spine edges. Then the image is cropped on the identified edges and digitized to get the text on spine.', 'none')
-space, exp, space = st.columns([1.3,4,0.25])
+space, exp, space = st.columns([1.3,3.9,0.25])
 with exp:
   with st.expander("See Demo"):
     st.video(bookspine_bytes)
 st.markdown("""---""")
 txt4('**Twitterazi**', 'A web app that finds the topics a twitter user has tweeted about in the past month. It accurately recognises people, organisations, locations and keywords in the tweets using Spacy and Regex, which can then be used to filter out tweets containing that entity.', '[Link](https://sanchitgoel7-twitterazi-app-ntuijm.streamlitapp.com/)')
-space, exp, space = st.columns([1.3,4,0.25])
+space, exp, space = st.columns([1.3,3.9,0.25])
 with exp:
   with st.expander("See Demo"):
     st.video(twitterazi_bytes)
@@ -202,7 +202,7 @@ st.markdown("""---""")
 txt4('**Hand Gesture Recognition**', 'Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly classify hand gestures into 11 classes with ∼ 98% accuracy.', '[PDF](https://drive.google.com/file/d/1tb3uY4i6B9PloM7Pl08O8VBR4N9WbS5E/view?usp=sharing)')
 st.markdown("""---""")
 txt4('**Stocksnapshot**', 'Developed a one-stop stock analysis tool that gives a financial overview of a company by scraping over 20yr+ financial data. The App also has a built in DCF calculator for a quick Intrinsic value calculation of a stock.', '[Link](https://stocksnapshot.herokuapp.com/) &nbsp &nbsp [Github](https://stocksnapshot.herokuapp.com/)')
-space, vid, space = st.columns([1.3,4,0.25])
+space, vid, space = st.columns([1.3,3.9,0.25])
 with vid:
   with st.expander("See Demo"):
     st.video(stocksnapshot_bytes)
