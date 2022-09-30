@@ -5,7 +5,7 @@ virtualenv resume_env
 source resume_env/bin/activate
 
 -run streamlit app
-streamlit run streamlit_app.py
+streamlit run app.py
 
 - export dependencies
 pip3 freeze > requirements.txt
@@ -13,9 +13,3 @@ pip3 freeze > requirements.txt
 - Install dependencies
 pip install -r requirements.txt
 
-
-primaryColor="#F63366"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#262730"
-font="sans serif"

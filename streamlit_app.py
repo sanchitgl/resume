@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-from streamlit_timeline import timeline
+#from streamlit_timeline import timeline
 #st.set_page_config(page_title="Timeline Example", layout="wide")
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
