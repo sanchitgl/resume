@@ -99,7 +99,7 @@ st.markdown('''
 ## Work Experience
 ''')
 
-txt('**Data Scientist**,&nbsp&nbsp[**Fractal.ai**](https://fractal.ai/)',
+txt('**Data Scientist**, [**Fractal.ai**](https://fractal.ai/)',
 'Oct 2020-Present')
 st.markdown('''
   -Developed an intelligent automation tool that automates the processing of insurance claims (PA and FWA) for US health insurance firms. Solution digitizes and extracts relevant details from the insurance forms using Natural Language Processing (NLP) models/libraries like Spacy, PYSBD, and Regex, and applies validation rules to check if the claim is valid.
@@ -136,19 +136,19 @@ st.markdown('''
 #   ''')
 
 #st.write("##")
-txt5('** Decentralization and Program Implementation**  - Research Assistant, &nbsp [Dr. Ashwini Deshpande](https://scholar.google.com/citations?user=gH37QQkAAAAJ&hl=en)')
+txt5('**Decentralization and Program Implementation**  - Research Assistant,  [Dr. Ashwini Deshpande](https://scholar.google.com/citations?user=gH37QQkAAAAJ&hl=en)')
 st.markdown('''
   Worked as a research assistant on the working paper ‘Decentralization and Program Implementation’ to study the impact of district splits on the effectiveness of Program implementation. I prepared the dataset of over 800 districts and 7000 blocks using web scraping and census datasets. I identified district splits in India from 2011-20 by mapping block level changes in a district year over year, allowing us to study how district splits affected NREGA implementation in India from 2010-20.
   ''')
 
 st.markdown("""---""")
-txt5('[**Words matter: Gender, Jobs and Applicant Behaviour \[IZA\]**](https://docs.iza.org/dp14497.pdf) - Research Assistant, &nbsp [Dr. Kanika Mahajan](https://sites.google.com/view/kanikamahajan/home?authuser=0)')
+txt5('[**Words matter: Gender, Jobs and Applicant Behaviour \[IZA\]**](https://docs.iza.org/dp14497.pdf) - Research Assistant,  [Dr. Kanika Mahajan](https://sites.google.com/view/kanikamahajan/home?authuser=0)')
 st.markdown('''
   Worked as a research assistant on the paper ‘Words matter: Gender, Jobs and Applicant Behaviour’, to examine how implicit gender preference in Job ads leads to differential labor market out- comes. I used NLP techniques like tf-idf, topic modeling and word clouds to understand the difference between the kind of jobs offered and the keywords associated with respective gender preferred jobs.
   ''')
 
 st.markdown("""---""")
-txt5('**[Covid 19 and Supply chain disruption \[AAEA\]](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12158)** - Research Assistant, &nbsp [Dr. Kanika Mahajan](https://sites.google.com/view/kanikamahajan/home?authuser=0)')
+txt5('**[Covid 19 and Supply chain disruption \[AAEA\]](https://onlinelibrary.wiley.com/doi/full/10.1111/ajae.12158)** - Research Assistant,  [Dr. Kanika Mahajan](https://sites.google.com/view/kanikamahajan/home?authuser=0)')
 st.markdown('''
   Worked on the now published journal ‘Covid 19 and Supply chain disruption’. I was responsible for cleaning the data and calculating the distances between production zones and retail centres by using google maps API to find the impact of distance on supply chain disruptions.
   ''')
