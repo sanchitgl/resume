@@ -84,6 +84,16 @@ def txt4(a, b, c):
   with col3:
     st.markdown(c)
 
+def txt6(a, img,  b, c):
+  col1, col2, col3 = st.columns([1.4,4,0.25])
+  with col1:
+    #st.markdown(a)
+    st.image(img, use_column_width ="always")
+  with col2:
+    st.markdown(b)
+  with col3:
+    st.markdown(c)
+
 ################
 st.markdown('''
 ## Work Experience
@@ -167,12 +177,14 @@ stocksnapshot_bytes = stocksnapshot_file.read()
 
 bookspine_file = open('media/Book_spine_demo.mp4', 'rb')
 bookspine_bytes = bookspine_file.read()
+
+book_spine_img = Image.open('media/Book_spin_detec.png')
 #####################
 st.write("&nbsp;")
 st.markdown('''
 ## Past Projects
 ''')
-txt4('**Book Spine Detection**', 'Developed an app for a client that segregates and digitizes the books in a book shelf\'s image. Uses canny edge detection method to detect edges in a photo and then applies hough transformation to identify book spine edges. Then the image is cropped on the identified edges and digitized to get the text on spine.', 'none')
+txt6('**Book Spine Detection**', book_spine_img, 'Developed an app for a client that segregates and digitizes the books in a book shelf\'s image. Uses canny edge detection method to detect edges in a photo and then applies hough transformation to identify book spine edges. Then the image is cropped on the identified edges and digitized to get the text on spine.', 'none')
 space, exp, space = st.columns([1.4,4,0.25])
 with exp:
   with st.expander("See Demo"):
@@ -185,7 +197,7 @@ with exp:
     st.video(twitterazi_bytes)
 st.markdown("""---""")
 
-txt4('**Reconstruction of Obfuscated Images**', 'Used Convolutional Autoencoders to fix 3 types of Obfuscations(blur, pixelation and speckle noise) in facial images. We trained 3 different Autencoders on about 13000 images to handle the different types of obfuscations', '[PDF](https://drive.google.com/file/d/1ac9nbv1E7MKduiapijJC-A8mCk1n9XAZ/view?usp=sharing)')
+txt4('**Reconstruction of Obfuscated Images**','Used Convolutional Autoencoders to fix 3 types of Obfuscations(blur, pixelation and speckle noise) in facial images. We trained 3 different Autencoders on about 13000 images to handle the different types of obfuscations', '[PDF](https://drive.google.com/file/d/1ac9nbv1E7MKduiapijJC-A8mCk1n9XAZ/view?usp=sharing)')
 st.markdown("""---""")
 txt4('**Hand Gesture Recognition**', 'Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly classify hand gestures into 11 classes with ∼ 98% accuracy.', '[PDF](https://drive.google.com/file/d/1tb3uY4i6B9PloM7Pl08O8VBR4N9WbS5E/view?usp=sharing)')
 st.markdown("""---""")
