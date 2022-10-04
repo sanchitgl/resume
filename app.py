@@ -1,8 +1,21 @@
 import streamlit as st
 from PIL import Image
 
+st.set_page_config(page_title="Sanchit", layout="wide")
 with open("style.css") as f:
     st.markdown('<style>{}</style>'.format(f.read()), unsafe_allow_html=True)
+
+st.markdown(
+        f"""
+<style>
+    .appview-container .main .block-container{{
+        max-width: {1000}px;
+    }}
+</style>
+""",
+        unsafe_allow_html=True,
+    )
+
 #####################
 # Header 
 st.write('''
@@ -168,6 +181,17 @@ st.markdown('''
 #   ''')
 
 #####################
+# st.markdown(
+#         f"""
+# <style>
+#     .appview-container .main .block-container{{
+#         max-width: {2000}px;
+#     }}
+# </style>
+# """,
+#         unsafe_allow_html=True,
+#     )
+
 
 twitterazi_file = open('media/Twitterazi_demo_2.mp4', 'rb')
 twitterazi_bytes = twitterazi_file.read()
