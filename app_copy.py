@@ -36,10 +36,11 @@ st.write('''
 ''')
 space, im, desc, space = st.columns([1.5,1,3,1.5])
 with im:
-    image = Image.open('media/dp.jpg')
-    st.image(image, width=150)
+  image = Image.open('media/dp.jpg')
+  st.image(image, width=150)
 with desc:
-    st.write('''I am currently a data scientist at Fractal.ai, developing intelligent solutions for fortune 500 clients. **Research Interests** : Applications of NLP and AI/ML in the health care and social sciences space. \n\nApart from that, I am also a keen follower of F1 and cricket, and love to play guitar in my free time :) ''')
+  st.write('''I am currently a data scientist at Fractal.ai, developing intelligent solutions for fortune 500 clients. **Research Interests** : Applications of NLP and AI/ML in the health care and social sciences space. \n\nApart from that, I am also a keen follower of Formula 1, and love to play guitar in my free time :) ''')
+  st.markdown('[Github](https://github.com/sanchitgl) &nbsp; [LinkedIn](https://www.linkedin.com/in/-sanchitgoel) &nbsp; [Resume](https://drive.google.com/file/d/1hiR6aSMxQiL7N1GhbZzEAcx4X0-jGgv_/view?usp=sharing)') 
 
 #####################
 # Navigation
