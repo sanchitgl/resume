@@ -43,7 +43,9 @@ st.markdown(hide_img_fs, unsafe_allow_html=True)
 #hide copy link icon on text
 st.markdown("""
         <style>
+        .css-15zrgzn {display: none}
         .css-eczf16 {display: none}
+        .css-jn99sy {display: none}
         </style>
         """, unsafe_allow_html=True)
 
