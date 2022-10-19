@@ -31,6 +31,23 @@ st.markdown(
         unsafe_allow_html=True,
     )
 
+#hide image fullscreen icon
+hide_img_fs = '''
+<style>
+button[title="View fullscreen"]{
+    visibility: hidden;}
+</style>
+'''
+st.markdown(hide_img_fs, unsafe_allow_html=True)
+
+#hide copy link icon on text
+st.markdown("""
+        <style>
+        .css-eczf16 {display: none}
+        </style>
+        """, unsafe_allow_html=True)
+
+
 st.write('''
 # Hi! I'm Sanchit Goel 
 ''')
@@ -66,9 +83,6 @@ st.markdown("""
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#past-projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skills">Skills</a>
       </li>
     </ul>
   </div>
@@ -108,8 +122,10 @@ txt('**Data Scientist**, [**Fractal.ai**](https://fractal.ai/)',
 space, text, space = st.columns([2,5,2])
 with text:
   st.markdown('''
-    -Developed an intelligent automation tool that automates the processing of insurance claims (PA and FWA) for US health insurance firms. Solution digitizes and extracts relevant details from the insurance forms using Natural Language Processing (NLP) models/libraries like Spacy, PYSBD, and Regex, and applies validation rules to check if the claim is valid.
-    \n-Worked on developing an automated Invoice processing solution using Image OCR and Natural lan- guage processing. Trained a text classifier to identify relevant segments of an invoice. Used NLP to extract required information using pattern matching.
+  - **Digital Analytics**:  Currently working with Merck- Studying their consumer interaction data to improve their marketing campaigns' effectiveness. 
+  - **Propay.bot**: An intelligent solution that processes and verifies health insurance claims (PA and FWA contracts) using NLP models - Spacy, PYSBD and Regex. **Impact**- In process of adoption by top health insurance firms - United Health & Cigna.
+  - **Power BI chatbot**: A POC for Heinekin, allowing upper management to directly query their BI dashboard natural language. Used Azure Bot Service. **Impact**- POC was accepted by Heineken and project will be financed later this year.
+  - **Invoice Information Extraction**: An E2E solution that streamlines and automates Invoice processing - from Information extraction to client's ERP update. Using Google Vision OCR and NLP (LSTM, Regex). **Impact**- Saved 100+ hrs in Labor monthly and avoided manual errors.
     ''')
 
 
@@ -190,38 +206,38 @@ st.markdown("""
 
 def small_text(head, str, skills):
   st.markdown('''<b class='med-font'>'''+head+'''</b><p class='small-font'>'''+str+'''  
-  Skills:'''+skills+"</p>", unsafe_allow_html=True)
+  **Skills:**'''+skills+"</p>", unsafe_allow_html=True)
   #st.markdown("<p class='small-font'>Skills:"+skills+"</p>", unsafe_allow_html=True)
 
 def load_twitterazi():
   st.video(twitterazi_bytes)
   #st.image(book_spine_img, use_column_width ="always")
-  small_text("[Twitterazzi](https://sanchitgoel7-twitterazi-app-ntuijm.streamlitapp.com/)", '''A web app that finds the topics a twitter user has tweeted about in the past month. 
-  It accurately recognises people, organisations, locations and keywords in the tweets using Spacy and Regex, which can then be used to filter out tweets containing that entity''',"POS tagging, NER, Wordcloud, Regex")
+  small_text("[Twitterazzi](https://sanchitgoel7-twitterazi-app-ntuijm.streamlitapp.com/)", ''' Web app that gives a quick overview of an influencer's twitter activity. It accurately identifies keywords, entities (Person, organizations & locations) 
+  and sentiment by processing user's recent tweets.'''," POS tagging, NER, Wordcloud, Regex")
 
 def load_bookspine():
   st.video(bookspine_bytes)
   #st.image(book_spine_img, use_column_width ="always")
-  small_text("Book Shelf Digitization", '''Developed an app for a client that digitizes the books kept in a book shelf. 
-  Uses canny edge detection and hough transformation to identify book spine edges. Then extracts books' information through Vision APi and Books API.''',
-  "Canny Edge Detection, Hough Transformation, Google Vision API")
+  small_text("Book Shelf Digitization", '''Web app that recognizes books in a book shelf image. Sements images by 
+  identifying book spines using canny edge detection and Hough transformation. Then digitizes and extracts the text from the segmented images to identify books.''',
+  " Canny Edge Detection, Hough Transformation, Google Vision API")
 
 
 def load_imageobf():
   st.image(obfuscate_img, width = 320)
   small_text("Reconstruction of Obfuscated Images", '''Trained Convolutional Autoencoders on 13000 images to fix 3 types of Obfuscations(blur, pixelation and speckle noise in facial images.'''
-  ,"Autoecncoders")
+  ," Autoecncoders")
 
 
 def load_hand_reco():
   st.image(hand_gesture_img,  width = 340)
   small_text("Hand Gesture Recognition",'''Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly 
-  classify hand gestures into 11 classes with ∼ 98% accuracy.''',"CNN")
+  classify hand gestures into 11 classes with ∼ 98% accuracy.'''," CNN")
 
 def load_stock_snap():
   st.video(stocksnapshot_bytes)
-  small_text("Stocksnapshot",'''Developed a one-stop stock analysis tool that scrapes over 20yr+ financial data. The App also has a built in 
-  DCF calculator for a quick Intrinsic value calculation of a stock.''',"Web scraping, Regex, ALtair charts, Streamlit")
+  small_text("Stocksnapshot",'''Developed a stock analysis web app that scrapes over 20 yr+ financial data - over 100 monthly active users. 
+  Also has a built in DCF calculator for a quick Intrinsic value calculation of a stock. Hosted the app on Heroku.'''," Web scraping, Regex, ALtair charts, Streamlit")
 
 space, wid, space = st.columns([3.5,4,2])
 with wid:
