@@ -135,14 +135,6 @@ with text:
   ## Research
   ''')
 
-# txt('**NLP Engineer**, Fractal Analytics',
-# 'Oct 2020-Present')
-# st.markdown('''
-#   -Developed an intelligent automation tool that automates the processing of insurance claims (PA and FWA) for US health insurance firms. Solution digitizes and extracts relevant details from the insurance forms using Natural Language Processing (NLP) models/libraries like Spacy, PYSBD, and Regex, and applies validation rules to check if the claim is valid.
-#   \n-Worked on developing an automated Invoice processing solution using Image OCR and Natural lan- guage processing. Trained a text classifier to identify relevant segments of an invoice. Used NLP to extract required information using pattern matching.
-#   ''')
-
-#st.write("##")
   txt5('**Decentralization and Program Implementation**  - Research Assistant,  [Dr. Ashwini Deshpande](https://scholar.google.com/citations?user=gH37QQkAAAAJ&hl=en)')
   st.markdown('''
     Worked as a research assistant on the working paper ‘Decentralization and Program Implementation’ to study the impact of district splits on the effectiveness of Program implementation. I prepared the dataset of over 800 districts and 7000 blocks using web scraping and census datasets. I identified district splits in India from 2011-20 by mapping block level changes in a district year over year, allowing us to study how district splits affected NREGA implementation in India from 2010-20.
@@ -166,14 +158,6 @@ with text:
     Studied the role factors like regulation changes, NBFC crisis, rise in ride hailing services and consumer confidence played on bringing about the Automobile slowdown in 2019. Used OLS estimation to find the impact of mentioned factors.
     ''')
 
-
-# st.write("##")
-# txt('**Business Analyst Intern**, National Skill Foundation of India',
-# 'June - July 2017')
-# st.markdown('''
-#   Went to Jharkhand to study the Lac industry. Surveyed over 30 farmers and created a micro business plan for improving current NSFI’s college curriculum on growing LAC.
-#   ''')
-
 #####################
 
 twitterazi_file = open('media/Twitterazi_demo_2.mp4', 'rb')
@@ -182,10 +166,9 @@ twitterazi_bytes = twitterazi_file.read()
 stocksnapshot_file = open('media/Stock_snapshot_demo.mp4', 'rb')
 stocksnapshot_bytes = stocksnapshot_file.read()
 
-bookspine_file = open('media/Book_spine_demo.mp4', 'rb')
+bookspine_file = open('media/book_detect_demo.mp4', 'rb')
 bookspine_bytes = bookspine_file.read()
 
-book_spine_img = Image.open('media/Book_spin_detec.png')
 hand_gesture_img = Image.open('media/hand_gest.png')
 obfuscate_img = Image.open('media/Image_obfuscations.png')
 
@@ -300,16 +283,6 @@ elif type_projects == "ML":
   with p2:
     load_hand_reco()
   
-#####################
-# st.markdown('''
-# ## Skills
-# ''')
-# txt3('Programming', '`Python`, `SQL`,`Java`')
-# txt3('Natural Language Processing','`Spacy`,`NLTK`,`PYSBD`,`TF-DF`,`LDA`')
-# txt3('Data visualization', '`PowerBi`,`Tableau`,`matplotlib`, `seaborn`, `altair`')
-# txt3('Machine Learning', '`scikit-learn`,`TensorFlow`')
-# txt3('User Interface', '`streamlit`, `CSS`')
-# txt3('Model deployment', '`streamlit`,`Heroku`, `AWS`, `Azure`')
 
 
 
