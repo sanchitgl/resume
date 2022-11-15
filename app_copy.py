@@ -169,8 +169,11 @@ stocksnapshot_bytes = stocksnapshot_file.read()
 bookspine_file = open('media/book_detect_demo.mp4', 'rb')
 bookspine_bytes = bookspine_file.read()
 
-hand_gesture_img = Image.open('media/hand_gest.png')
+hand_gesture_img = Image.open('media/hand_gest_2.png')
 obfuscate_img = Image.open('media/Image_obfuscations.png')
+
+synthpop_img = Image.open('media/synthpop.png')
+
 
 #####################
 st.write("&nbsp;")
@@ -224,6 +227,11 @@ def load_stock_snap():
   small_text("Stocksnapshot",'''Developed a stock analysis web app that scrapes over 20 yr+ financial data - over 100 monthly active users. 
   Also has a built in DCF calculator for a quick Intrinsic value calculation of a stock. Hosted the app on Heroku.'''," Web scraping, Regex, ALtair charts, Streamlit")
 
+def load_synthPop():
+  st.image(synthpop_img,  width = 340)
+  small_text("SYnthetic Population generation",'''Worked under Dr. Debayan Gupta for studying the spread of Covid-19. Trained a DataSynthesizer model using NSS data to
+  scale the dataset 15 times to about 15 million observations. Presented an Iterative Proportional fitting (IPF) approach to integrate census datasets for generating Synthetic Population.''',"Data Synthesizer")
+
 space, wid, space = st.columns([3.5,4,2])
 with wid:
   type_projects = st.radio("project type", ("All","NLP", "Image-Processing", "ML"), horizontal=True, label_visibility = 'collapsed')
@@ -258,6 +266,8 @@ if type_projects == "All":
     load_stock_snap()
     #txt4('**Stocksnapshot**', 'Developed a one-stop stock analysis tool that gives a financial overview of a company by scraping over 20yr+ financial data. The App also has a built in DCF calculator for a quick Intrinsic value calculation of a stock.', '[Link](https://stocksnapshot.herokuapp.com/) &nbsp &nbsp [Github](https://stocksnapshot.herokuapp.com/)')
 
+  with p3:
+    load_synthPop()
 
 elif type_projects == "NLP":
   space, p1, space, p2,space, p3, space = st.columns([0.4,2,0.05,2,0.05,2,0.4])
@@ -282,6 +292,8 @@ elif type_projects == "ML":
     load_imageobf()
   with p2:
     load_hand_reco()
+  with p3:
+    load_synthPop()
   
 
 
