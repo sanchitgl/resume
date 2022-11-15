@@ -21,7 +21,7 @@ with open("style.css") as f:
 # set_width("300px")
 
 st.markdown(
-        f"""
+      f"""
 <style>
     .appview-container .main .block-container{{
         max-width: {1300}px;
@@ -194,7 +194,7 @@ st.markdown("""
 
 def small_text(head, str, skills):
   st.markdown('''<b class='med-font'>'''+head+'''</b><p class='small-font'>'''+str+'''  
-  **Skills:**'''+skills+"</p>", unsafe_allow_html=True)
+  </p>''', unsafe_allow_html=True)
   #st.markdown("<p class='small-font'>Skills:"+skills+"</p>", unsafe_allow_html=True)
 
 def load_twitterazi():
@@ -229,7 +229,7 @@ def load_stock_snap():
 
 def load_synthPop():
   st.image(synthpop_img,  width = 340)
-  small_text("SYnthetic Population generation",'''Worked under Dr. Debayan Gupta for studying the spread of Covid-19. Trained a DataSynthesizer model using NSS data to
+  small_text("Synthetic Population generation",'''Worked under Dr. Debayan Gupta for studying the spread of Covid-19. Trained a DataSynthesizer model using NSS data to
   scale the dataset 15 times to about 15 million observations. Presented an Iterative Proportional fitting (IPF) approach to integrate census datasets for generating Synthetic Population.''',"Data Synthesizer")
 
 space, wid, space = st.columns([3.5,4,2])
