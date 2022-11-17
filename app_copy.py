@@ -124,7 +124,7 @@ txt('**Data Scientist**, [**Fractal.ai**](https://fractal.ai/)',
 space, text, space = st.columns([2,5,2])
 with text:
   st.markdown('''
-  - **Digital Analytics**:  Currently working with Merck- Studying their consumer interaction data to improve their marketing campaigns' effectiveness. 
+  - **Content Tagging Automation Platform(CTAP)** :Currently working with Merck-Building CTAP,an intelligent NLP platform capable of recommending the optimum marketing content and strategy for reaching out to specific Healthcare Professionals (HCPs).
   - **Propay.bot**: An intelligent solution that processes and verifies health insurance claims (PA and FWA contracts) using NLP models - Spacy, PYSBD and Regex. **Impact**- In process of adoption by top health insurance firms - United Health & Cigna.
   - **Power BI chatbot**: A POC for Heinekin, allowing upper management to directly query their BI dashboard natural language. Used Azure Bot Service. **Impact**- POC was accepted by Heineken and project will be financed later this year.
   - **Invoice Information Extraction**: An E2E solution that streamlines and automates Invoice processing - from Information extraction to client's ERP update. Using Google Vision OCR and NLP (LSTM, Regex). **Impact**- Saved 100+ hrs in Labor monthly and avoided manual errors.
