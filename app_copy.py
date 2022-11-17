@@ -200,31 +200,31 @@ def small_text(head, str, skills):
 def load_twitterazi():
   st.video(twitterazi_bytes)
   #st.image(book_spine_img, use_column_width ="always")
-  small_text("[Twitterazzi](https://sanchitgoel7-twitterazi-app-ntuijm.streamlitapp.com/)", ''' Web app that gives a quick overview of an influencer's twitter activity. It accurately identifies keywords, entities (Person, organizations & locations) 
+  small_text("[Twitterazzi](https://github.com/sanchitgl/Twitterazzi)", ''' Web app that gives a quick overview of an influencer's twitter activity. It accurately identifies keywords, entities (Person, organizations & locations) 
   and sentiment by processing user's recent tweets.'''," POS tagging, NER, Wordcloud, Regex")
 
 def load_bookspine():
   st.video(bookspine_bytes)
   #st.image(book_spine_img, use_column_width ="always")
-  small_text("Book Shelf Digitization", '''Web app that recognizes books in a book shelf image. Sements images by 
+  small_text("[Book Shelf Digitization](https://github.com/sanchitgl/Bookshelf-digitization)", '''Web app that recognizes books in a book shelf image. Sements images by 
   identifying book spines using canny edge detection and Hough transformation. Then digitizes and extracts the text from the segmented images to identify books.''',
   " Canny Edge Detection, Hough Transformation, Google Vision API")
 
 
 def load_imageobf():
   st.image(obfuscate_img, width = 320)
-  small_text("Reconstruction of Obfuscated Images", '''Trained Convolutional Autoencoders on 13000 images to fix 3 types of Obfuscations(blur, pixelation and speckle noise in facial images.'''
+  small_text("[Reconstruction of Obfuscated Images](https://drive.google.com/file/d/1ExM23sEi4CwLcQmmmpBdPp1DBZsECCYm/view?usp=sharing)", '''Trained Convolutional Autoencoders on 13000 images to fix 3 types of Obfuscations(blur, pixelation and speckle noise in facial images.'''
   ," Autoecncoders")
 
 
 def load_hand_reco():
   st.image(hand_gesture_img,  width = 340)
-  small_text("Hand Gesture Recognition",'''Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly 
+  small_text("[Hand Gesture Recognition](https://drive.google.com/file/d/1y8TikVtRN0LoDsY8G_ek1yrUPXbrPBmt/view?usp=sharing)",'''Trained a convolutional neural network(CNN) to recognize hand gestures. We used VPLU dataset of 1100 images to train the classifier, the model was able to correctly 
   classify hand gestures into 11 classes with ∼ 98% accuracy.'''," CNN")
 
 def load_stock_snap():
   st.video(stocksnapshot_bytes)
-  small_text("Stocksnapshot",'''Developed a stock analysis web app that scrapes over 20 yr+ financial data - over 100 monthly active users. 
+  small_text("[Stocksnapshot](https://github.com/sanchitgl/Stock-Snapshot)",'''Developed a stock analysis web app that scrapes over 20 yr+ financial data - over 100 monthly active users. 
   Also has a built in DCF calculator for a quick Intrinsic value calculation of a stock. Hosted the app on Heroku.'''," Web scraping, Regex, ALtair charts, Streamlit")
 
 def load_synthPop():
